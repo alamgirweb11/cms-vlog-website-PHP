@@ -18,8 +18,8 @@ function insert_categories(){
             }
    // find all categories or show categories
   function show_categories(){
-  			global $connection;
-          $query = "SELECT * FROM categories";
+  						global $connection;
+          				$query = "SELECT * FROM categories";
                              $select_categories = mysqli_query($connection,$query);
                              while ($row = mysqli_fetch_assoc($select_categories)) {
                               $cat_id = $row['cat_id'];

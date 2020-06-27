@@ -7,14 +7,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">CMS Admin</a>
+                <a class="navbar-brand" href="index.php">CMS Admin</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li><a href="../index.php">Home page</a></li>
-                <li class="dropdown">
+               <!--  <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
-                  <!--   <ul class="dropdown-menu message-dropdown">
+                    <ul class="dropdown-menu message-dropdown">
                       <li class="message-preview">
                           <a href="#">
                               <div class="media">
@@ -66,9 +66,9 @@
                       <li class="message-footer">
                           <a href="#">Read All New Messages</a>
                       </li>
-                  </ul> -->
-                </li>
-                <li class="dropdown">
+                  </ul>
+                </li> -->
+                <!-- <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu alert-dropdown">
                         <li>
@@ -94,7 +94,7 @@
                             <a href="#">View All</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Abir Ahmed <b class="caret"></b></a>
                     <ul class="dropdown-menu">

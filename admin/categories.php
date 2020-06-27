@@ -38,11 +38,13 @@
                              ?>  
                         </div> <!-- form div end -->
                         <div class="col-xs-6">
-                          <table class="table table-bordered table-hover">
+                          <table class="table table-bordered table-striped table-hover">
                             <thead>
                               <tr>
                                 <th>Id</th>
                                 <th>Cat Title</th>
+                                <th>Delete</th>
+                                <th>Edit</th>
                               </tr>
                             </thead>
                             <tbody>
