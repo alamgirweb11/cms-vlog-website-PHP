@@ -22,6 +22,7 @@
                                      $the_post_id = $_GET['delete'];
                                      $query = "DELETE FROM posts WHERE post_id = $the_post_id";
                                      $delete_query = mysqli_query($connection,$query);
+                                     header("Location:posts.php");
                                 }
                                ?>
                               <?php 
@@ -53,10 +54,6 @@
                 $cat_title = $row['cat_title'];
                 echo "<td>$cat_title</td>";
             }*/
-         /*     $row = mysqli_fetch_assoc($select_categories_id);
-              $cat_id= $row['cat_id'];
-              $cat_title = $row['cat_title'];
-               echo "<td>{$cat_title}</td>";*/
                                   echo "<td>$post_category_id</td>";
                                    echo "<td>$post_title</td>";
                                    echo "<td>$post_author</td>";
