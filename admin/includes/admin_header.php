@@ -1,4 +1,9 @@
 <?php include "../includes/db.php"; ?>
+<?php session_start();
+      if (!isset($_SESSION['user_role'])) {
+               header("Location: ../index.php");
+      }
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
